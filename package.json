@@ -7,6 +7,7 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
+    "deploy": "npm run generate && node deploy.mjs",
     "lint": "eslint ."
   },
   "devDependencies": {
