@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   
-  prerender: false,
   experimentalNoScripts: true,
 
   router: {
