@@ -11,6 +11,9 @@
   },
   "devDependencies": {
     "@nuxt-themes/alpine": "latest",
+    "@irys/sdk": "^0.0.4",
+    "arweave": "^1.14.4",
+    "warp-contracts": "^1.4.22",
     "@nuxt/devtools": "^0.8.5",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/plausible": "^0.2.3",

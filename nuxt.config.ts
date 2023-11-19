@@ -9,12 +9,13 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   
-  ssr: true,
+  ssr: false,
+  prerender: false,
+  experimentalNoScripts: true,
 
   router: {
     options: {
       hashMode: true,
-      scrollBehaviorType: 'smooth',
     }
   }
 })
