@@ -7,5 +7,14 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+  
+  ssr: false,
+
+  router: {
+    options: {
+      hashMode: true,
+      scrollBehaviorType: 'smooth',
+    }
+  }
 })
