@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   
-  ssr: false,
+  ssr: true,
 
   router: {
     options: {
