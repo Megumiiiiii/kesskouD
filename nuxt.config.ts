@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   
-  ssr: false,
   prerender: false,
   experimentalNoScripts: true,
 
