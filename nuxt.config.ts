@@ -7,17 +7,5 @@ export default defineNuxtConfig({
     // '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     // '@nuxt/devtools'
-  ],
-  
-  ssr: true,
-
-  routeRules: {
-    '/': { prerender: true }
-  },
-
-  router: {
-    options: {
-      hashMode: true,
-    }
-  }
+  ]
 })
